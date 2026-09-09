@@ -1,2 +1,4 @@
 FROM serjs/go-socks5-proxy
+ENV PROXY_USER=user
+ENV PROXY_PASSWORD=pass
 EXPOSE 1080
